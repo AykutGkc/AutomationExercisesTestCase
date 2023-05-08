@@ -19,9 +19,9 @@ import java.util.List;
 
 public class ReusableMethods {
 
-    protected static ExtentReports extentReports;
+    public static ExtentReports extentReports;
     protected static ExtentHtmlReporter extentHtmlReporter;
-    protected static ExtentTest extentTest;
+    public static ExtentTest extentTest;
 
 
     //HARD WAIT METHOD
